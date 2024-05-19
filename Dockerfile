@@ -1,5 +1,5 @@
 FROM nginx
-WORKDIR /var/app
-COPY . /var/app
+WORKDIR /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 
 EXPOSE 80
